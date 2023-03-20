@@ -1,0 +1,40 @@
+.heading-4 {
+  font-size: 1.8rem;
+}
+
+.heading-2 {
+  font-size: 4rem;
+}
+
+.heading-3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.mb-sm {
+  margin-bottom: 1.5rem;
+}
+.mb-md {
+  margin-bottom: 4rem;
+}
+.mb-lg {
+  margin-bottom: 8rem;
+}
+.mb-hg {
+  margin-bottom: 12rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+  background-color: $color-primary-dark;
+  color: #fff;
+  padding: 1.8rem 3rem;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-primary;
+  }
+}

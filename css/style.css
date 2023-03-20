@@ -85,7 +85,9 @@ body {
 
 .hero__btn {
   align-self: center;
-  justify-self: start; }
+  justify-self: start;
+  text-decoration: none;
+  font-size: 1.6rem; }
 
 .hero__support-text {
   display: grid;

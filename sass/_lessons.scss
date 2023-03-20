@@ -65,7 +65,8 @@
     cursor: pointer;
     transition: all 0.3s;
 
-    &:hover {
+    &:hover,
+    &:active {
       background-color: $color-secondary;
       color: #fff;
     }

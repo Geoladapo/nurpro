@@ -60,6 +60,11 @@ body {
   .btn:hover {
     background-color: #c69963; }
 
+a {
+  text-decoration: none;
+  color: #000;
+  background-color: #f9f7f6; }
+
 .hero__content {
   grid-column: full-start / col-end 3;
   display: grid;
@@ -173,14 +178,13 @@ body {
       width: 2rem;
       height: 2rem;
       fill: #c69963; }
-  .lesson__btn {
+  .lesson__btn:link, .lesson__btn:visited {
     grid-column: 1/-1;
     font-size: 1.6rem;
     font-weight: 400;
     padding: 1rem;
-    cursor: pointer;
     transition: all 0.3s; }
-    .lesson__btn:hover {
+    .lesson__btn:link:hover, .lesson__btn:link:active, .lesson__btn:visited:hover, .lesson__btn:visited:active {
       background-color: #101d2c;
       color: #fff; }
 
